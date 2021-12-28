@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body, html{
+    height: 100vh;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+header a, header p{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 2vw;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2% 5%;
+    font-size: 2em;
+}
+
+main{
+    font-family: Sriracha, cursive;
+}
+
+main p {
+    padding-left: 5%;
+    font-size: 2em;
+}
+section{
+    padding: 5vh 0;
+    line-height: 3em;
+}
+
+section.comum {
+    background-color: white;
+}
+section.secao-com-imagem > p{
+background-color: #00000041;
+width: 50vw;
+color: white;
+}
+section.secao-com-imagem:nth-child(2){
+    background-image: url('imagens/background001.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    }
+
+section.secao-com-imagem:nth-child(4){
+    background-image: url('imagens/background002.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    }
+
+footer{
+    background-color: black;
+    color: #ddd;
+    text-align: center;
+    padding: 1vw;
+}
+footer p{
+    padding: 0;
+    margin: 0;
+}
